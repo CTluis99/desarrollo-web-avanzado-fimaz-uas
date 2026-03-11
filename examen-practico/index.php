@@ -21,7 +21,7 @@ echo "<tr>
 <td>".$admin->getNombre()."</td>
 <td>".$admin->getCorreo()."</td>
 <td>".$admin->getRol()."</td>
-<td>—</td>
+<td>—</td>;
 </tr>";
 
 $alumno = new Alumno("Saul Lopez", "karinaexample.com", "1210");
