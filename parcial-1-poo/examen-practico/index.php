@@ -21,7 +21,7 @@ echo "<tr>
 <td>".$admin->getNombre()."</td>
 <td>".$admin->getCorreo()."</td>
 <td>".$admin->getRol()."</td>
-<td>—</td>;
+<td>—</td>
 </tr>";
 
 $alumno = new Alumno("Saul Lopez", "saulesexample.com", "1210");
@@ -35,7 +35,7 @@ echo "<tr>
 }  
 
 catch (Exception $e) {
-    echo "<tr><td>Error: Correo inválido</td></tr>";
+    echo "Error: Correo inválido " . $e->getMessage();
 }
 
 
