@@ -24,7 +24,7 @@ echo "<tr>
 <td>—</td>;
 </tr>";
 
-$alumno = new Alumno("Saul Lopez", "karinaexample.com", "1210");
+$alumno = new Alumno("Saul Lopez", "saulesexample.com", "1210");
 echo "<tr>
 <td>".$alumno->getNombre()."</td>
 <td>".$alumno->getCorreo()."</td>
