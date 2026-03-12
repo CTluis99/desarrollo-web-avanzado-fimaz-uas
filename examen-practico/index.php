@@ -35,7 +35,7 @@ echo "<tr>
 }  
 
 catch (Exception $e) {
-    echo "<tr><td colspan='4'>Error: Correo inválido</td></tr>";
+    echo "<tr><td>Error: Correo inválido</td></tr>";
 }
 
 
