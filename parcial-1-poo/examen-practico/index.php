@@ -21,10 +21,10 @@ echo "<tr>
 <td>".$admin->getNombre()."</td>
 <td>".$admin->getCorreo()."</td>
 <td>".$admin->getRol()."</td>
-<td>—</td>
+<td>—</td>;
 </tr>";
 
-$alumno = new Alumno("Saul Lopez", "saulesxample.com", "1210");
+$alumno = new Alumno("Saul Lopez", "saulesexample.com", "1210");
 echo "<tr>
 <td>".$alumno->getNombre()."</td>
 <td>".$alumno->getCorreo()."</td>
@@ -35,7 +35,7 @@ echo "<tr>
 }  
 
 catch (Exception $e) {
-    echo "<tr><td colspan='4'>Error: Correo inválido</td></tr>";
+    echo "<tr><td>Error: Correo inválido</td></tr>";
 }
 
 
